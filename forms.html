@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>New Relationship with Jesus</title>
+	<link href="css/forms.css" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<section>
+			<h1>New Relationship with Jesus</h1>
+			<p>Fill out the form below to help us support you.</p>
+			<form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES
+			" method="post">
+			<input type="hidden" name="send_to" value="anetor.ataga@gmail.com">
+			<main>
+				<fieldset>
+				<legend>
+					Your contact information
+				</legend>
+				<label for="name">Your name </label>
+					<input type="text" id="name" name="name" placeholder="First and Last name">
+				<label for="phone" >Phone number</label>
+				<input type="tel" id="phone" name="phone" placeholder="Add your country code">
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" placeholder="jsmith@ymail.com">
+		</fieldset>
+		<fieldset>
+			<legend>
+				About you
+			</legend>
+ 
+			<label for="date">Date of Birth
+			</label>
+			<input type="date" id="date" name="date">
+			<label for="qty">What would you like to be called (if different from your first name)?</label>
+			<input type="number" id="qty" name="qty" min="1" max="11">
+			<p>How can we help you?</p>
+			<label>
+				<input type="radio" name="ufotype" value="classic">Materials and resources
+			</label>
+			<label>
+				<input type="radio" name="ufotype" value="starwars" >
+				Prayers
+			</label>
+			<label>	
+				<input type="radio" name="ufotype" value="galactica">Counselling
+			</label>
+			<label>
+				<input type="radio" name="ufotype" value="Borg-style">All of the above
+			</label>
+			 
+			<label for="abtype">Best time to connect with you?
+			</label>	
+			<select id="abtype" name="abtype" placeholder="Select an option">
+				<option selected>Select one...
+				</option>					<option value="tour">Day time, weekday</option>
+				<option value="dinner">Night time, weekday</option>
+				<option value="dance">Daytime, weekends</option>
+				<option value="dance">Nighttime, weekends</option>
+					
+				</select>
+			<label>Special requests:</label>
+			<textarea name="comments" id="comments" cols="90" rows="10" placeholder="A prayer for your thoughts..."></textarea>
+			<label for="subscribe">
+				<input type="checkbox" id="subscribe" name="subscribe" value="subscribe" checked>Add us to your email list!
+			</label>
+	</fieldset>
+</main>
+		<button type="submit">Submit and Welcome!</button>
+	
+			</form>
+		</section>
+		<aside>
+			<h3>Our Location</h3>
+			<address style="font-size: 1.2rem",>
+			<label> WyCliffe Bible Translators |</label>  <br>
+			11221 John Wycliffe Blvd, Orlando, FL 32832
+			</address>
+			<div id="container" >
+				<button id="btnn">Press and get His word</button>
+				<div id="output">Press to get a new one!</div>
+			
+			
+		</aside>
+		
+	</div>
+	
+	</div>
+	<script src="forms.js">
+	</script>
+	
+</body>
+</html>
+
+
+
+
+
